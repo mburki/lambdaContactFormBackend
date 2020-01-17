@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     # Technical variables for SES email
     SENDER_EMAIL    = os.environ['SENDER_EMAIL']
     RECIPIENT       = os.environ['RECIPIENT']
-    EMAIL_SUBJECT   = os.environ['EMAIL_SUBJET']
+    EMAIL_SUBJECT   = os.environ['EMAIL_SUBJECT']
     SITE_URL        = os.environ['SITE_URL']
     CHARSET         = "utf-8"
     AWS_REGION      = os.environ['AWS_REGION']
